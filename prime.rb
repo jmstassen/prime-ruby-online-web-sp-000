@@ -8,7 +8,7 @@ def prime?(number)
     end
     i += 1
   end
-  if number < 1
+  if number < 2
     return false
   elsif factors.length == 0
     return true
