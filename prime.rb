@@ -2,7 +2,7 @@ def prime?(number)
   half_number = number / 2
   i = 2
   factors = []
-  while i < half_number
+  while i < half_number + 1
     if number % i == 0
       factors << i
     end
