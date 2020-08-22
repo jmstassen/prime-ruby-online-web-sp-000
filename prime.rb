@@ -11,6 +11,6 @@ def prime?(number)
   if factors.length == 0
     return true
   else
-    return falselearn
+    return false
   end
 end
